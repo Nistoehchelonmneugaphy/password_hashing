@@ -1,0 +1,9 @@
+[package]
+name = "password_hashing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = { version = "0.5.3", features = ["zeroize"] }
+rand = "0.10.1"
+serde = { version = "1.0.228", features = ["derive"] }
